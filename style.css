@@ -13,7 +13,7 @@
 }
 
 
-.div-boldo {
+.header-div {
     width: calc(100% - 200px);
     margin: 0 auto;
     height: 42px;
@@ -21,6 +21,54 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.first-section {
+    width: 100%;
+    height: 183px;
+}
+
+.first-section-title {
+    width: calc(100% - 600px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section-title-min {
+    margin-top: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.first-section-title-max {
+    margin-top: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 64px;
+}
+
+.second-section {
+    width: calc(100% - 336px);
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+}
+
+.second-section-content {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Manrope'
+}
+ 
+/* CHECKPOINT */
 
 .div-links {
     width: 426px;
@@ -44,16 +92,17 @@
     justify-content: center;
     align-items: center;
 }
+
 .barra {
-   display: block;
-   width: 1200px;
-   height: 1px;
-   background-color: #0a2640;
-   margin: 0 auto;
-   margin-top: 70px;
+    display: block;
+    width: 1200px;
+    height: 1px;
+    background-color: #0a2640;
+    margin: 0 auto;
+    margin-top: 70px;
 }
 
-.news-taitou {
+.news-title {
     margin-top: 101px;
     font-size: 48px;
     font-family: 'Manrope', sans-serif;
@@ -62,7 +111,7 @@
     justify-content: center;
 }
 
-.news-taitou span {
+.news-title span {
     width: 998px;
 }
 
@@ -80,7 +129,7 @@
     height: 209px;
 }
 
-#botaoLoadMore{
+#botaoLoadMore {
     height: 40px;
     width: 128px;
     border: 2px solid #0a2640;
