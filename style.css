@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-boldo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 135px;
+}
+
+
+.div-boldo {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-links {
+    width: 426px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #0A2640;
+}
+
+.div-links a {
+    text-decoration: none;
+}
+
+#login-button {
+    height: 40px;
+    width: 128px;
+    border: 2px solid #0a2640;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra {
+   display: block;
+   width: 1200px;
+   height: 1px;
+   background-color: #0a2640;
+   margin: 0 auto;
+   margin-top: 70px;
+}
+
+.news-taitou {
+    margin-top: 101px;
+    font-size: 48px;
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.news-taitou span {
+    width: 998px;
+}
+
+.lista-news {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 49px;
+    width: 998px;
+    margin-top: 35px;
+}
+
+.img-class {
+    width: 300px;
+    height: 209px;
+}
+
+#botaoLoadMore{
+    height: 40px;
+    width: 128px;
+    border: 2px solid #0a2640;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 124px;
+}
